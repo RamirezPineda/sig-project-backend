@@ -15,6 +15,7 @@ const PlaceSchema = new Schema(
     longitude: String,
     group: String,
     initials: String,
+    location: String
   },
   {
     timestamps: true,
